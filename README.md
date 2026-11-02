@@ -25,3 +25,7 @@ is licensed under the [MIT license][mit], available in this package in the file
 ## Statistics ##
 
 78 exceptions were caught during the creation of this mod.
+
+## Source packaging
+
+This checkout declares Factorio `0.15` in `info.json`; `VERSION` is `0.4.206`. The manifest contains `{{MOD_NAME}}` and `{{VERSION}}` placeholders, so the raw source directory is not a ready-to-install mod package. `Makefile` points to `../factorio-mod-makefile/Makefile`, which is outside this repository. Obtain the matching packaging helper or a packaged release from [upstream](https://github.com/narc0tiq/evoGUI) before installing.
